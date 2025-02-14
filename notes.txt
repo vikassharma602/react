@@ -1,0 +1,29 @@
+                            React
+
+=>  React is javaScript lirary. (it is not a framework)
+=>  By using this we make SPA (single page application )
+=>  fast because of vitual Dom
+=>  Easy to learn
+=>  high in demand 
+=>  Large community
+=>  develop  by Facebook 
+=>  current version is 18.3.1
+
+ diff b/w single page application and multiple application
+
+ Single page application      |     multiple page application
+=> page refres nahi hota      |      page refresh hota hai
+    fast as compare multiple  |
+    page application
+
+------------------------------------------------------------------------
+                            React setup with vite
+=>  npm create vite 
+=>  project name 
+=>  follow those steps      
+
+            why vite for React setup
+
+    fast  development server and build tool
+    typescript support
+    tye
