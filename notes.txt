@@ -26,4 +26,28 @@
 
     fast  development server and build tool
     typescript support
-    tye
+    
+---------------------------------------------------------------------------
+    Q  React main konsi file sabse phle excute hoti hai 
+    => index.html
+
+        File Structure in React  
+    index.html => main.jsx => app.jsx  
+
+compounents ka first letter capital hota hai 
+
+
+Q library or framework main differnce 
+ library => k flow ko aap control karte ho 
+ framework => framework ka apna flow hota hai humae us k according chalna padta hai 
+
+----------------------------------------------------------------------------
+                file and folder Structure of React app
+    most important files
+
+    Q diff b/w  depndencies and devdependencies ?
+
+    depndencies => wo depndencies hoti hai jes p project run karta hai
+
+    Devdependencies => development depndencies enn ki waje se aap development kar pa rahe ho 
+                        durning development need
