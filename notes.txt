@@ -51,3 +51,37 @@ Q library or framework main differnce
 
     Devdependencies => development depndencies enn ki waje se aap development kar pa rahe ho 
                         durning development need
+------------------------------------------------------------------------
+                    compounents    
+
+=> Everything is component in react when building ui 
+=> parts of websites in react we can call component
+        ex Header , navbar
+=>  component start with capital letter 
+    it is self closing tag 
+
+  return function m direct html use nahi kar sakte hai 
+  div use lo ya <></> fragments elements
+
+Q Function or Component differnce ?
+
+=> Function koi javaScript ki value ko return kare ga 
+            ex function sum(){
+                return 10+10
+            }
+=> Component capital letter se start hoga html ka code hoga or jsx ka 
+            ex function Colors(){
+                return(
+                    <>
+                        <h1> Red <h1/>
+                    </h1>
+                )
+            }
+----------------------------------------------------------------------
+                    import export 
+
+=>  It help reusability of compounents     
+    kesi compounent k aandar ke function ko use lena hai tho
+        import {Login} from './importExport.jsx'
+        ese courliye bresase m lena hai 
+        
