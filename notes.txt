@@ -84,4 +84,15 @@ Q Function or Component differnce ?
     kesi compounent k aandar ke function ko use lena hai tho
         import {Login} from './importExport.jsx'
         ese courliye bresase m lena hai 
-        
+    in import.jsx file 
+    
+    // using only one function thats why we use only 'export 'only 
+
+        export function Login(){
+            return(
+                <>
+            <h1>Login User</h1>
+                </>
+            )
+        }
+       
