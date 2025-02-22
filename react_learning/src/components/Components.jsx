@@ -26,6 +26,14 @@ function Colors(){
         </>
     )
 }
+export function user(){
+    const username ="Vikas Sharma"
+    return(<>
+            <h1>Name : {username}  </h1>
+
+    </>)
+}
+
 function sum (){
     return 10+10
 } 

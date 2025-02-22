@@ -95,4 +95,8 @@ Q Function or Component differnce ?
                 </>
             )
         }
+--------------------------------------------------------------------------
+                        jsx 
+    jsx is a synatx extension of JavaScript        
        
+    =>  jsx ki waje se hum javaScript file mein html ka code likh sakte hain 
