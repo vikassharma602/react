@@ -1,13 +1,23 @@
 import React from 'react'
 import {Login} from './importExport.jsx'
+import Header from './Header.jsx'
+import JavaScript from './JavaScript.jsx'
+import CallEvent from './CallEvent.jsx'
+import State from './State.jsx'
 
 function Components() {
     // alert(sum());
   return (
     <div>
-        <Fruit/>
+        <Header/>
         <Colors/>
+        <Fruit/>
         <Login/>
+        <Button/>
+        <JavaScript/>
+        <CallEvent/>
+        <State/>
+
     </div>
   )
 }
@@ -37,5 +47,17 @@ export function user(){
 function sum (){
     return 10+10
 } 
+
+function Button (){
+
+    return(
+        
+            <button onClick={clickalert} >click me </button>
+       
+    )
+}
+function clickalert(){
+       alert("vikas ")
+}
 
 export default Components
