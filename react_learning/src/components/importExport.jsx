@@ -4,7 +4,7 @@ import {user} from '../components/Components.jsx'
 export function Login(){
     return(
         <>
-            <h3>Login User {user()} </h3>
+            <h1>Login User {user()} </h1>
         </>
     )
 }

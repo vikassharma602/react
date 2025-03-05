@@ -100,3 +100,130 @@ Q Function or Component differnce ?
     jsx is a synatx extension of JavaScript        
        
     =>  jsx ki waje se hum javaScript file mein html ka code likh sakte hain 
+
+------------------------------------------------------------------------
+                    Object 
+    
+    const userObject = {
+        name :"vikas sharma",
+        email : "vikas602@gmail.com",
+
+    }
+                    array
+
+    const userArr = ['vikas','aman']
+
+    {userArr[0]}  access with indexing 
+-------------------------------------------------------------------
+                 Click events  function calls 
+
+       => in javaScript we use "onclick"  
+            but in React we use camelcase "onClick" c capital   
+                    --------------------------
+
+          Click event defination leta hai call nhi 
+                ex: onClick = {callFun()}  ye caling hua ek function ki
+                                ese nahi karna hai 
+                   onClick =  {callFun}  ye difine hui hai ese karna hai best 
+                                    way to use it         
+
+ Q   differnce b/w Js function call and  React function call                    
+---------------------------------------------------------------------
+                Upgrade React version
+
+    =>  For check version of react   npm list command
+    =>  For update react command    npm i react@rc command 
+            here rc  is relase candidate 
+
+-------------------------------------------------------------------     
+                 State in react 
+
+        => React ui p tabhi change karta tab uss ka compounent re-randar hoga 
+                wrna change nahi karta hai 
+        => React variable ko nhi samjta hai  Data ko store karna hai toh 
+         "State " ka use karna padta hai 
+
+    State is container to store data like variable
+                
+                variable m re-randar nhi hota 
+                State m automaticle ho jata hai
+
+        State is mutable and dynamic 
+                mutable means :- enn ki value ko change kar sakte hai 
+
+        State ko import karna padta hain 
+
+        re-render hota  hai tab ui m bhi change ho jata hai
+
+    => State aapne aap m ek hook hai                  
+        ------------------------------------------------------
+                    hook in react Js
+       Hooks are special feature for function compounent   
+
+       starting with "use " we call it hooks 
+       ex useState ,useEffect ,
+
+
+    // Counter  logic
+
+    const [count,setCount]=useState(0);
+    const handelCount=()=>{
+      setCount(count+1);
+    }
+return(
+    <div>
+            <h1>Counter:{count}</h1>
+            <button onClick={handelCount}>update count</button>
+
+    </div>
+)
+------------------------------------------------------------------
+                Toggle or  hide and  show in react 
+
+    => Toggle means in hide or show 
+        
+        using State we change in compounents
+        example 
+
+const Toggle = () => {
+    const [display,setDisplay]=useState(0);
+  return (
+    <div>
+            <h1> Toggle in react</h1>
+            
+            {
+                display?<h3>vikas Sharma</h3>:<h3>no user name found</h3>
+            }    
+
+            //Component KO HIDE SHOW KARN HAI TOH 
+            {
+                display?<Component name /> :<h3>no user name found</h3>
+            }  
+            //use in button
+
+            <button onClick={()=>setDisplay(!display)}>Toggle</button>
+
+    </div>
+  )
+}
+-------------------------------------------------------------------------
+
+                            multiple Conditions in react
+    =>
+        {
+                count==0?<h3>Condition 0</h3>
+                :count==1?<h3>Condition 1</h3>
+                :count==3?<h3>Condition 3</h3>
+
+                :count==5?<h3>Condition 5</h3>
+                :null
+            }
+         last m null else ki jaghe kam karta hai   
+        
+------------------------------------------------------------------------
+                    props in React js
+    => what is Props in react         
+        when we want pass  data one compounent to other compounent then 
+        we use props 
+
+    =>  hum essa bol sakte hai ki ye ek tara se perameter hai 
