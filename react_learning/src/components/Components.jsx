@@ -7,6 +7,7 @@ import State from './State.jsx'
 import Toggle from './Toggle.jsx'
 import MultipleConditions from './MultipleConditions.jsx'
 import Props from './Props.jsx'
+import AdvProps from './AdvProps.jsx'
 
 function Components() {
     // alert(sum());
@@ -23,6 +24,7 @@ function Components() {
         <Toggle/>
         <MultipleConditions/>
         <Props/>
+        <AdvProps/>
         
 
 

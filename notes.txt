@@ -226,4 +226,30 @@ const Toggle = () => {
         when we want pass  data one compounent to other compounent then 
         we use props 
 
-    =>  hum essa bol sakte hai ki ye ek tara se perameter hai 
+    =>  hum essa bol sakte hai ki ye ek perameter ki tara pass karta hai 
+
+    example 
+
+    =>
+     user.jsx          
+     function User(props) {
+    console.log(props.name)
+    console.log(props.age)
+    return (
+        <>
+            <h3>User Component</h3>
+            <h4> Props name : {props.name}</h4>
+            <h4>Props age : {props.age}</h4>
+        </>
+    )
+
+}
+     
+     props.jsx  
+                   import User from User.jsx se 
+
+                 <User name ={"vikas sharma "} age={23} />
+
+---------------------------------------------------------------------
+                Props Advance concepts                 
+    
