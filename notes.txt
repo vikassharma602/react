@@ -251,5 +251,59 @@ const Toggle = () => {
                  <User name ={"vikas sharma "} age={23} />
 
 ---------------------------------------------------------------------
-                Props Advance concepts                 
-    
+                Get input field value      (onchange ) event
+
+    input m value daale toh h2 m show 
+    on change p kch toh evant hua uss ki value ko setVal m dala hai 
+
+    const [val,setVal]=useState("")
+        
+    return (
+        <div>
+        <hr />
+            <h2>Get Input field Value </h2>
+            <input  onChange={(event)=>setVal(event.target.value)}
+            value={val}
+            style={{padding:"10px",fontSize:'20px'}} type="text" />
+            
+            <br />
+            <br />
+            <h3>{val}</h3>
+            <button onClick={()=>setVal("")} > Clear </button>
+
+            </div>
+    )   
+-----------------------------------------------------------------------------------------                 
+                            Controlled Component
+
+     =>   Controlled component hum use bolenge jo ek form hoga 
+            uss m input field hogi jo ki React State k State k sath control hoga 
+
+            *Ye kese kaam karta hain
+                => Store input Field value in State ka use karnege .
+                => USe onchange handler with input field use karte hai 
+                => value attribute attached with State
+
+            Benfits
+                    * Single Source of Truth  
+                    (ek input field ki value ek single state k sath hi attached hoti hai
+                    jo chnage uss state m hoga vo hi input field m hoga )
+
+                    * Validation and manipulation Before submit button   
+                        (validation lga sakte ho  phle hi )
+
+                     * Dynamicaly value ko update kar sakte hai    
+  
+  practicale 
+
+        submit button p click karne page refresh hora hai 
+-------------------------------------------------------------------------
+                    Handel Checkbox in React js 
+
+    * jab aapne input tag lete hai na toh value String ki form 
+          mein hai hoti hain  
+    * Or jab aapn Check box lete hai toh single Check box 
+          nahi hot hai multiple hote  hai 
+       check box k time  state k aandar value 
+            array ki from mein save karna padta hai 
+                or uncheck k time value ko remove bhi karna padta hai                            

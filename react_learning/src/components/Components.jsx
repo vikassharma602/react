@@ -8,6 +8,10 @@ import Toggle from './Toggle.jsx'
 import MultipleConditions from './MultipleConditions.jsx'
 import Props from './Props.jsx'
 import AdvProps from './AdvProps.jsx'
+import InputField from './InputField.jsx'
+import Wrapper from './Wrapper.jsx'
+import Controlledcom from './Controlledcom.jsx'
+import CheckBoxes from './CheckBoxes.jsx'
 
 function Components() {
     // alert(sum());
@@ -25,6 +29,10 @@ function Components() {
         <MultipleConditions/>
         <Props/>
         <AdvProps/>
+        <Wrapper/>
+        <InputField/>
+        <Controlledcom/>
+        <CheckBoxes/>
         
 
 
