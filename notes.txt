@@ -307,3 +307,15 @@ const Toggle = () => {
        check box k time  state k aandar value 
             array ki from mein save karna padta hai 
                 or uncheck k time value ko remove bhi karna padta hai                            
+
+
+    =>  input use karenge check box k liye 
+
+            {/* label ke use se name p click karte hai toh
+                checkbox bhi sath kaam karta hai check uncheck 
+             */}
+             
+            <input type="checkbox" id='Php'/>
+            <label htmlFor="Php">Php</label>
+
+      

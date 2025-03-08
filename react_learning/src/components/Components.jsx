@@ -11,7 +11,8 @@ import AdvProps from './AdvProps.jsx'
 import InputField from './InputField.jsx'
 import Wrapper from './Wrapper.jsx'
 import Controlledcom from './Controlledcom.jsx'
-import CheckBoxes from './CheckBoxes.jsx'
+import Skills from './Skills.jsx'
+
 
 function Components() {
     // alert(sum());
@@ -32,7 +33,8 @@ function Components() {
         <Wrapper/>
         <InputField/>
         <Controlledcom/>
-        <CheckBoxes/>
+        <Skills/>
+        
         
 
 
